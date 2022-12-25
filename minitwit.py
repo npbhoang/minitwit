@@ -33,7 +33,7 @@ DB_TYPE_MYSQL = 'mysql'
 # By default, use a local sqlite db.
 LOCAL_DB_TYPE = DB_TYPE_SQLITE
 
-LOCAL_DATABASE_URL = LOCAL_DB_TYPE + ':////var/minitwit/minitwit.db'
+LOCAL_DATABASE_URL = LOCAL_DB_TYPE + ':///minitwit.db'
 
 # Schema files used to initialize the database
 #
@@ -45,7 +45,7 @@ SCHEMAS = {
 #======================================================================
 # configuration
 
-CONFIG_DB_TYPE = 'DB_TYPE' # Either DB_TYPE_SQLITE (the default) or DB_TYPE_MYSQL
+CONFIG_DB_TYPE = 'DB_TYPE_SQLITE' # Either DB_TYPE_SQLITE (the default) or DB_TYPE_MYSQL
 
 # The following params are used only for DB_TYPE_MYSQL
 
